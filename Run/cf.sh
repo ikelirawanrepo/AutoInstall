@@ -9,7 +9,7 @@ apt install jq curl -y
 DOMAIN=fast-vpn.online
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.fast-vpn.online
-CF_ID=ikelirawanbilling@gmail.com
+CF_ID=ikelirawanhosting@gmail.com
 CF_KEY=54d0c70d2003c6d6070adaa0049dc6e8ef598
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
