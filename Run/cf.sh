@@ -6,11 +6,11 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By geo"
 clear
 apt install jq curl -y
-DOMAIN=fast-vpn.online
+DOMAIN=FAST-VPN.online
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.fast-vpn.online
-CF_ID=ikelirawanhosting@gmail.com
-CF_KEY=54d0c70d2003c6d6070adaa0049dc6e8ef598
+SUB_DOMAIN=${sub}.FAST-VPN.online
+CF_ID=unmaskedbilling@logicstreak.com
+CF_KEY=b9487a987ed1bc11b50bd18b9abee61da7b6e
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
